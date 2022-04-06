@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/navigation_login">
+    app:startDestination="@id/navigation_search">
 
     <fragment
         android:id="@+id/navigation_search"
@@ -32,8 +32,5 @@
         android:name="com.example.fproject.ui.Fav.FavFragment"
         android:label="@string/login"
         tools:layout="@layout/triologin" >
-        <action
-            android:id="@+id/action_navigation_login_to_navigation_search"
-            app:destination="@id/navigation_search" />
     </fragment>
 </navigation>
